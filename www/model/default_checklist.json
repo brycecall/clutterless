@@ -1,0 +1,11 @@
+var default_checklist = 
+{
+    section:{
+        item1: "",
+        item2: "",
+},
+    section2: {
+        item1: "",
+        item2: "",
+        item3: ""
+}};
