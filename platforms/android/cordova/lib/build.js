@@ -61,13 +61,13 @@ function parseOpts(options, resolvedTarget) {
     if (options.nobuild) ret.buildMethod = 'none';
 
     if (options.argv.versionCode)
-        ret.extraArgs.push('-PcdvVersionCode=' + options.argv.versionCode);
+        ret.extraArgs.push('-PcdvVersionCode=' + options.versionCode);
 
     if (options.argv.minSdkVersion)
-        ret.extraArgs.push('-PcdvMinSdkVersion=' + options.argv.minSdkVersion);
+        ret.extraArgs.push('-PcdvMinSdkVersion=' + options.minSdkVersion);
 
     if (options.argv.gradleArg)
-        ret.extraArgs.push(options.argv.gradleArg);
+        ret.extraArgs.push(options.gradleArg);
 
     var packageArgs = {};
 
@@ -88,17 +88,11 @@ function parseOpts(options, resolvedTarget) {
             throw new Error('Specified build config file does not exist: ' + buildConfig);
         }
         events.emit('log', 'Reading build config file: '+ path.resolve(buildConfig));
-        var buildjson = fs.readFileSync(buildConfig, 'utf8');
-        //var config = JSON.parse(fs.readFileSync(buildConfig, 'utf8'));
-        var config = JSON.parse(buildjson);
+        var config = JSON.parse(fs.readFileSync(buildConfig, 'utf8'));
         if (config.android && config.android[ret.buildType]) {
             var androidInfo = config.android[ret.buildType];
             if(androidInfo.keystore && !packageArgs.keystore) {
-                if(androidInfo.keystore.substr(0,1) === '~') {
-                    androidInfo.keystore = process.env.HOME + androidInfo.keystore.substr(1);
-                }
                 packageArgs.keystore = path.resolve(path.dirname(buildConfig), androidInfo.keystore);
-                events.emit('log', 'Reading the keystore from: ' + packageArgs.keystore);
             }
 
             ['alias', 'storePassword', 'password','keystoreType'].forEach(function (key){

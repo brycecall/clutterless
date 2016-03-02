@@ -6,5 +6,39 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-admob": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-admob"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-connectivity-monitor": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-connectivity-monitor"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-google-play-services": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-google-play-services"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-libgoogleadmobads": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/appfeel/google-iosadmobads",
+            "subdir": ".",
+            "ref": "482f14dd825feee9f7994ca5327dc527b8705910"
+        },
+        "is_top_level": false,
+        "variables": {}
     }
 }
