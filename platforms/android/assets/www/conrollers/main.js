@@ -20,8 +20,8 @@ app.config(
             });
 
         $mdThemingProvider.theme('default')
-            .primaryPalette("blue")
-            .accentPalette("green");
+            .primaryPalette("teal")
+            .accentPalette("red");
 
         console.log("Application Route init");
     });

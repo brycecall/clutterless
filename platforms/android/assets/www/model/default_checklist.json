@@ -79,7 +79,7 @@ var default_checklist = {
             {label: "Computer Programs"},
             {label: "Computer Peripherals"},
             {label: "Email Subscriptions"},
-            {label: "Msic. Craft Supplies"},
+            {label: "Misc. Craft Supplies"},
             {label: "Scrapbook Paper"},
             {label: "Yarn and Tools"},
             {label: "Fabric"},

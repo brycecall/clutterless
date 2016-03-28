@@ -12,12 +12,13 @@
         <param name="android-package" value="com.appfeel.cordova.admob.AdMobAds" />
     </feature>
     <allow-intent href="market:*" />
+    <splash src="assets/splash.png" />
     <name>Clutterless</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A simple home clutter remover coordinator app.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="brycecall@gmail.com">
+        Bryce Call
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -27,4 +28,5 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <icon src="assets/icon.png" />
 </widget>

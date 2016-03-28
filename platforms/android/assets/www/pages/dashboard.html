@@ -1,6 +1,7 @@
-<md-card ng-repeat="(label, items) in service.checklist" ng-click="navigate(label)">
+<md-card ng-repeat="(label, items) in service.checklist" ng-click="navigate(label)" style="position: relative">
     <md-card-title>
         <span>{{label}}</span>
+        <ng-md-icon ng-hide="calculate_remaining(label).remaining" class="star" icon="star" style="fill: red" size="35"></ng-md-icon>
         <span flex></span>
         <span ng-show="calculate_remaining(label).remaining">{{calculate_remaining(label).remaining}} remaining</span>
         <span ng-hide="calculate_remaining(label).remaining">Done!</span>
