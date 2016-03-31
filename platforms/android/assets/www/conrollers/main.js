@@ -57,10 +57,3 @@ app.service("service",
 
         return instance;
     });
-
-document.addEventListener('deviceready', function () {
-    admob.createBannerView({
-        publisherId: "ca-app-pub-8941304934472173/7626081274"
-    });
-    console.log("AdMob Ready");
-}, false);

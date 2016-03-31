@@ -1,12 +1,4 @@
 {
-    "cordova-plugin-whitelist": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-connectivity-monitor": {
         "source": {
             "type": "registry",
@@ -15,10 +7,10 @@
         "is_top_level": false,
         "variables": {}
     },
-    "cordova-google-play-services": {
+    "cordova-plugin-extension": {
         "source": {
             "type": "registry",
-            "id": "cordova-google-play-services"
+            "id": "cordova-plugin-extension"
         },
         "is_top_level": false,
         "variables": {}
@@ -29,14 +21,6 @@
             "id": "cordova-plugin-admobpro"
         },
         "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-extension": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-extension"
-        },
-        "is_top_level": false,
         "variables": {}
     }
 }

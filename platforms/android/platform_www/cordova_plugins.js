@@ -6,20 +6,13 @@ module.exports = [
         "clobbers": [
             "window.AdMob"
         ]
-    },
-    {
-        "file": "plugins/cordova-plugin-whitelist/whitelist.js",
-        "id": "cordova-plugin-whitelist.whitelist",
-        "runs": true
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-google-play-services": "25.0.0",
     "cordova-plugin-extension": "1.3.0",
-    "cordova-plugin-admobpro": "2.14.0",
-    "cordova-plugin-whitelist": "1.2.1"
+    "cordova-plugin-admobpro": "2.14.0"
 };
 // BOTTOM OF METADATA
 });
