@@ -1,15 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.spark.clutterless" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.spark.clutterless" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Hello Cordova</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
     <preference name="loglevel" value="DEBUG" />
+    <feature name="AdMob">
+        <param name="android-package" value="com.rjfun.cordova.admob.AdMobPlugin" />
+        <param name="onload" value="true" />
+    </feature>
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
-    </feature>
-    <feature name="connectivity">
-        <param name="android-package" value="com.appfeel.cordova.connectivity.Connectivity" />
-    </feature>
-    <feature name="AdMobAds">
-        <param name="android-package" value="com.appfeel.cordova.admob.AdMobAds" />
     </feature>
     <allow-intent href="market:*" />
     <splash src="assets/splash.png" />
@@ -17,7 +19,7 @@
     <description>
         A simple home clutter remover coordinator app.
     </description>
-    <author email="brycecall@gmail.com">
+    <author email="brycecall@gmail.com" href="http://cordova.io">
         Bryce Call
     </author>
     <content src="index.html" />

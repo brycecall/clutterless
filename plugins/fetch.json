@@ -7,14 +7,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-admob": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-admob"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-connectivity-monitor": {
         "source": {
             "type": "registry",
@@ -31,12 +23,18 @@
         "is_top_level": false,
         "variables": {}
     },
-    "cordova-libgoogleadmobads": {
+    "cordova-plugin-admobpro": {
         "source": {
-            "type": "git",
-            "url": "https://github.com/appfeel/google-iosadmobads",
-            "subdir": ".",
-            "ref": "482f14dd825feee9f7994ca5327dc527b8705910"
+            "type": "registry",
+            "id": "cordova-plugin-admobpro"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-extension": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-extension"
         },
         "is_top_level": false,
         "variables": {}

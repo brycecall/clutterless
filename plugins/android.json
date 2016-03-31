@@ -7,18 +7,18 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-admobpro": {
             "PACKAGE_NAME": "com.spark.clutterless"
         },
-        "cordova-admob": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.spark.clutterless"
         }
     },
     "dependent_plugins": {
-        "cordova-connectivity-monitor": {
+        "cordova-google-play-services": {
             "PACKAGE_NAME": "com.spark.clutterless"
         },
-        "cordova-google-play-services": {
+        "cordova-plugin-extension": {
             "PACKAGE_NAME": "com.spark.clutterless"
         }
     }
