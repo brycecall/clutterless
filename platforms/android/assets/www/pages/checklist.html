@@ -1,9 +1,0 @@
-<div style="padding: 15px;" ng-hide="select">
-<md-checkbox class="md-primary checklist_checkbox" ng-repeat="item in section" ng-click="service.save()" ng-model="item.complete">{{item.label}}</md-checkbox>
-</div>
-
-<div style="padding: 15px;" ng-show="select">
-    <md-card ng-repeat="item in section" ng-click="navigate(item.label)">
-        <md-card-title>{{item.label}}</md-card-title>
-    </md-card>
-</div>
