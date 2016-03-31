@@ -1,0 +1,18 @@
+html {
+    padding-top: 20px;
+    background-color: rgb(0,150,136);
+    overflow: hidden;
+}
+
+#main_content {
+    padding-bottom: 150px;
+}
+
+.main_menu_fab {
+    bottom: 60px;
+}
+
+.about_image {
+    width: 90%;
+    max-width: 450px;
+}

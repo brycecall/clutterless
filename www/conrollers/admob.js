@@ -13,8 +13,9 @@ document.addEventListener('deviceready', function () {
 
     if (AdMob) AdMob.createBanner({
         adId: admobid.banner,
-        position: AdMob.AD_POSITION.BOTTOM_LEFT,
-        autoShow: true
+        position: AdMob.AD_POSITION.BOTTOM_CENTER,
+        autoShow: true,
+        overlap: true
     });
 
     console.log("AdMob Ready");
