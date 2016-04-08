@@ -27,7 +27,8 @@ body {
 }
 
 .about_image {
-    width: 300px;
+    width: 90%;
+    max-width: 350px;
     display: block;
     margin: auto;
     box-shadow: 1px 1px 20px #AAA;
@@ -43,12 +44,12 @@ body {
     padding: 5px;
     margin: 0;
     background-color: transparent;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
     overflow: auto;
 }
 .main_menu_fab {
     position: fixed;
-    bottom: 10px;
+    bottom: 60px;
     right: 10px;
     padding: 10px;
 }

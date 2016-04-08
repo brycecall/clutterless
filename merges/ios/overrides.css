@@ -7,12 +7,3 @@ html {
 #main_content {
     padding-bottom: 150px;
 }
-
-.main_menu_fab {
-    bottom: 60px;
-}
-
-.about_image {
-    width: 90%;
-    max-width: 450px;
-}

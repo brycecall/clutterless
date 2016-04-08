@@ -12,6 +12,12 @@
         }
     },
     "dependent_plugins": {
+        "cordova-connectivity-monitor": {
+            "PACKAGE_NAME": "com.spark.clutterless"
+        },
+        "cordova-libgoogleadmobads": {
+            "PACKAGE_NAME": "com.spark.clutterless"
+        },
         "cordova-plugin-extension": {
             "PACKAGE_NAME": "com.spark.clutterless"
         }
